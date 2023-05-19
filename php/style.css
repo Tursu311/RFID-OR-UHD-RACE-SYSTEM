@@ -1,0 +1,165 @@
+/* CSS for the Sant Jordi webpage based on Dracula Theme*/
+html,
+body {
+	background-image: none !important;
+	background-color: rgba(40, 42, 54, 1) !important;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body * {
+	color: rgba(248, 248, 242, 1) !important;
+	background-color: rgba(40, 42, 54, 1) !important;
+}
+
+a,
+a * {
+	color: rgba(80, 250, 123, 1) !important;
+	background-color: transparent !important;
+}
+
+a:hover,
+a:hover *,
+a:visited:hover,
+a:visited:hover *,
+span[onclick]:hover,
+div[onclick]:hover,
+[role="link"]:hover,
+[role="link"]:hover *,
+[role="button"]:hover *,
+[role="menuitem"]:hover,
+[role="menuitem"]:hover *,
+.link:hover,
+.link:hover * {
+	color: rgba(241, 250, 140, 1) !important;
+}
+
+a:visited,
+a:visited * {
+	color: rgba(98, 114, 164, 1) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+[id*="headline"],
+[class*="headline"],
+[id*="header"],
+[class*="header"],
+[class*="header"] td {
+	color: rgba(255, 184, 108, 1) !important;
+	font-size: 2em !important;
+}
+
+h2 {
+	font-size: 3em !important;
+}
+
+table {
+    width: 98%;
+	margin: auto;
+    border-collapse: collapse;    
+    border: rgba(98, 114, 164, 1) 0.3em solid;
+	font-size: 2em !important;
+}
+
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    border: rgba(98, 114, 164, 1) 1px solid;
+    
+}
+
+
+th {
+    background-color: rgba(98, 114, 164, 1)!important;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(98, 114, 164, 1)!important;
+}
+
+
+[id*="overlay"],
+[id*="lightbox"],
+blockquote {
+	background-color: rgba(68, 71, 90, 1) !important;
+}
+
+pre,
+dl {
+	background-color: rgba(68, 71, 90, 1) !important;
+}
+
+input,
+select,
+button,
+[role="button"],
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick] {
+	text-indent: 0.5em;
+	appearance: none !important;
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	background: rgba(68, 71, 90, 1) !important;
+    border: rgba(98, 114, 164, 1) 0.1em solid !important;
+	border-radius: 1em;
+	font-size: 1.5em !important;
+	text-align: center;
+	margin: 0.5em;
+	padding: 0.5em;
+	}
+
+textarea {
+	appearance: none !important;
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	background: rgba(68, 71, 90, 1) !important;
+}
+
+div,
+ul,
+li {
+	background-image: none !important;
+}
+
+a.highlight,
+a.highlight *,
+a.active,
+a.active *,
+.selected,
+.selected *,
+[href="#"] {
+	font-weight: bold !important;
+	color: rgba(139, 233, 253, 1) !important;
+}
+
+form {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+button {
+    background-color: rgba(98, 114, 164, 1)!important;
+    border: rgba(98, 114, 164, 1) 0.3em solid;
+    padding: 0.3em;
+    margin: 0.5em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.3em !important;
+}

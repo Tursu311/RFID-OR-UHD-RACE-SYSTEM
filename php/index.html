@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cursa Sant Jordi</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Cursa Sant Jordi</h2>
+            <button onclick="window.location.href='global.php'">Veure estadistiques globals</button>
+        </div>
+        
+        <div class="content">
+            <h2>Introdueix el teu numero per veure les teves estadistiques</h2>
+            <form action="personal.php" method="post">
+                <input type="text" name="dni" placeholder="Introdueix el teu numero" required>
+                <input type="submit" value="Veure les meves estadistiques">
+            </form>
+        </div>
+    </div>
+</html>
